@@ -1,0 +1,36 @@
+.card {
+  background-color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+	&-img {
+	  display: block;
+	  height: 300px;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+	}
+	&-title {
+	  font-size: 200%;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	}
+	&-description {
+ 	 font-size: 120%;
+	}
+	&-popup {
+	  font-size: 150%;
+	  padding: 20px;
+	  position: absolute;
+	  bottom: 20px;
+	  right: 30px;
+	  color: #fff;
+	  background-color: rgba(0, 0, 0, 0.35);
+	}
+}
+
+
+

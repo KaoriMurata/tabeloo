@@ -1,0 +1,48 @@
+footer {
+  padding: 30px 50px;
+  height: 80px;
+
+}
+
+.footer{
+	&-item {
+		
+	}
+	&-search {
+		width: 33.3333%;
+		float: left;
+		text-align: left;
+		&-img {
+		  display: block;
+		  background-image: url(img/loupe.png);
+		  height: 65px;
+		  background-repeat: no-repeat;
+		  background-size: contain;
+		}
+	}
+	&-mypage {
+		width: 33.3333%;
+		float: left;
+		text-align: center;
+		&-img {
+			display: block;
+			background-image: url(img/mypage.png);
+			height: 65px;
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 65px;
+			margin: 0 auto;
+		}
+	}
+	&-settings {
+		float: right;
+		text-align: right;
+		&-img {
+			display: block;
+			background-image: url(img/settings.png);
+			height: 65px;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+	}
+}

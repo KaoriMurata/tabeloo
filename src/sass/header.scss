@@ -1,0 +1,42 @@
+header {
+  background-color: pink;
+}
+
+// If logo image exists
+// .logo {
+//   text-align: center;
+//   height: 60px;
+//   padding-top: 40px;
+//   padding-bottom: 20px;
+// }
+
+.logotext {
+  height: 60px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: gray;
+  font-size: 300%;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.search {
+  height: 80px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  &-box {
+    width: 95%;
+    height: 75px;
+    border-radius: 10px;
+    font-size: 29pt;
+    text-indent: 70px;
+    &-icon {
+      position: absolute;
+      top: 37px;
+      left: 35px;
+      color: gray;
+    }
+  }
+}

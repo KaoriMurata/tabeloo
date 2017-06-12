@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+reset.scsshtml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 12pt; }
+
+body {
+  margin: 0;
+  padding: 0;
+  text-indent: 0; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+header {
+  background-color: pink; }
+
+.logotext {
+  height: 60px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: gray;
+  font-size: 300%;
+  text-align: center;
+  letter-spacing: 4px; }
+
+.search {
+  height: 80px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative; }
+  .search-box {
+    width: 95%;
+    height: 75px;
+    border-radius: 10px;
+    font-size: 29pt;
+    text-indent: 70px; }
+    .search-box-icon {
+      position: absolute;
+      top: 37px;
+      left: 35px;
+      color: gray; }
+
+footer {
+  padding: 30px 50px;
+  height: 80px; }
+
+.footer-search {
+  width: 33.3333%;
+  float: left;
+  text-align: left; }
+  .footer-search-img {
+    display: block;
+    background-image: url(img/loupe.png);
+    height: 65px;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.footer-mypage {
+  width: 33.3333%;
+  float: left;
+  text-align: center; }
+  .footer-mypage-img {
+    display: block;
+    background-image: url(img/mypage.png);
+    height: 65px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 65px;
+    margin: 0 auto; }
+
+.footer-settings {
+  float: right;
+  text-align: right; }
+  .footer-settings-img {
+    display: block;
+    background-image: url(img/settings.png);
+    height: 65px;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+body {
+  width: 100%;
+  font-size: 14pt;
+  box-sizing: border-box; }
+
+main {
+  padding: 30px 25px;
+  background-color: #dff; }
+
+.card {
+  background-color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px; }
+  .card:last-child {
+    margin-bottom: 0; }
+  .card-img {
+    display: block;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+  .card-title {
+    font-size: 200%;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .card-description {
+    font-size: 120%; }
+  .card-popup {
+    font-size: 150%;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.35); }
+
+body {
+  font-family: 'Sawarabi Gothic', 'Arimo', sans-serif; }
