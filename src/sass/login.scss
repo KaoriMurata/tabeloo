@@ -1,0 +1,90 @@
+body
+    {
+     margin: 0px;          /* ページ全体のmargin */
+     padding: 0px;         /* ページ全体のpadding */
+     text-align: center;   /* 下記のautoに未対応用のセンタリング */
+}	
+#form {
+	width: 800px;
+	padding: 20px;
+	margin-left: auto;    /* 左側マージンを自動的に空ける */
+	margin-right: auto;   /* 右側マージンを自動的に空ける */
+	text-align: left;     /* 中身を左側表示に戻す */
+
+}
+.login-title {
+	margin: 0 auto;
+	color: gray;
+	font-weight: bold;
+	font-size: 200%;
+}
+.user_cd {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+input[type="email"] {
+	margin: 0 auto;
+	width: 800px;
+	font-size: 200%;
+}
+.password-title {
+	margin: 0 auto;
+	color: gray;
+	font-weight: bold;
+	font-size: 200%;
+}
+.password {
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+input[type="password"] {
+	margin: 0 auto;
+	width: 800px;
+	font-size: 200%;
+}
+.check {
+	padding: 60px;
+	color: gray;
+	font-weight: bold;
+	font-size: 100%;
+	text-align: center;
+}
+.button_wrapper {
+   text-align: center;
+}
+.submit input {
+	font-family: Arial;
+	width: 200px;
+	font-size: 200%;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 8px 0 10px;
+	color: #fff;					/* フォント色ホワイト */
+	background-color: #ff6347;		/* ボタンの色トマト */
+	border-radius: 5px;				/* 枠線の角丸 */
+}
+.or_comment {
+	padding: 20px;
+	margin: 0 auto;
+	color: gray;
+	font-weight: bold;
+	font-size: 100%;
+	text-align: center;
+}
+.button_wrapper2 {
+   text-align: center;
+}
+.create_user_cd input {
+	font-family: Arial;
+	width: 200px;
+	font-size: 200%;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 8px 0 10px;
+	color: #fff;					/* フォント色ホワイト */
+	background-color: #ff6347;		/* ボタンの色トマト */
+	border-radius: 5px;				/* 枠線の角丸 */
+}

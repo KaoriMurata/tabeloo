@@ -3,9 +3,18 @@ body {
   width: 100%;
   font-size: 14pt;
   box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: #f0f0f0;
 }
 
 main {
-  padding: 30px 25px;
-  background-color: #dff;
+	width: 100%;
+	padding: 30px 25px;
+	margin-top: 230px;
+	margin-bottom: 135px;
+}
+.main {
+	&-producdetail {
+		position: relative;
+	}
 }

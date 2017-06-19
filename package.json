@@ -6,9 +6,14 @@
     "npm-run-parallel": "^0.5.0"
   },
   "scripts": {
-    "sass": "node-sass src/sass/style.scss dest/css/style.css -w",
+    "sass": "node-sass src/sass/style.scss dest/css/style_before_prifixer.css -w",
     "copy-img": "cpx \"./src/img/*.{png, jpg, gif}\" ./dest/img -w",
-    "copy-html": "cpx \"./src/*.html\" ./dest",
-    "serve": "npm run copy-html && npm run copy-img && npm run sass"
+    "copy-html": "cpx \"./src/*.html\" ./dest -w",
+    "serve": "npm run copy-html & npm run copy-img & npm run sass",
+    "postcss": "postcss dest/css/style_before_prifixer.css --use autoprefixer -o dest/css/style.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "postcss-cli": "^4.1.0"
   }
 }
